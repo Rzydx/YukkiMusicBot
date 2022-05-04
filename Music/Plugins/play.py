@@ -736,7 +736,7 @@ async def startyuplay(_, CallbackQuery):
             ),
             stream_type=StreamType().local_stream,
         )
-        buttons = play_markup(videoid, user_id)
+        buttons = play_markup(videoid, user_id, current_time, total_time)
         await mystic.delete()
         m = await CallbackQuery.message.reply_photo(
             photo=thumb,
