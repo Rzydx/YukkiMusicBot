@@ -21,7 +21,6 @@ def play_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="II", callback_data=f"pausevc2"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"skipvc2"),
             InlineKeyboardButton(text="▢", callback_data=f"stopvc2"),
-            )
         ],
         [    
             InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"),
