@@ -8,7 +8,6 @@
 # All rights reserved.
 
 from pyrogram.types import InlineKeyboardButton
-from config import SUPPORT_CHANNEL
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
@@ -33,11 +32,11 @@ def track_markup(_, videoid, user_id, channel, fplay):
     return buttons
 
 
-def stream_markup(_, videoid, SUPPORT_CHANNEL):
+def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"], url=f"{SUPPORT_CHANNEL}"),
+                text=_["PL_B_2"], url=f"https://t.me/QwertYou_LoveMe"),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
