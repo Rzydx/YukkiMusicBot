@@ -37,7 +37,7 @@ def stream_markup(_, videoid, SUPPORT_CHANNEL):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"], url=f"{SUPPORT_CHANNEL}",
+                text=_["PL_B_2"], url=f"{SUPPORT_CHANNEL}"
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
