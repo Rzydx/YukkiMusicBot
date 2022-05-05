@@ -1,99 +1,100 @@
 {
-    "name": "KyyMusic",
-    "description": "Music allow you to stream music trought the telegram voice chat feature.",
-    "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/muhamadrizky16/KyyMusic",
+    "name": "Yukki Music Bot",
+    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
+    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Yukki",
+    "YukkiMusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
     "stack": "container",
     "env": {
-        "SESSION_NAME": {
-            "description": "isi dengan string sesi pyrogram dari akun",
-            "required": true
-        },
-        "OWNER_ID": {
-            "description": "isi dengan id telegram Anda sebagai pemilik bot",
-            "required": true,
-            "value": "1663258664"
-        },
-        "ASS_ID": {
-            "description": "isi dengan telegram id akun assistant",
-            "required": true,
-            "value": ""
-        },
-        "LOG_GROUP_ID": {
-            "description": "buat grup pribadi dan dapatkan id grup, tambahkan bot Anda sebagai admin ke grup juga",
-            "required": true,
-            "value": ""
-        },
-        "API_ID": {
-            "description": "ID Api Anda dari my.telegram.org",
-            "required": true,
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "your Api Hash from my.telegram.org/apps",
-            "required": true,
-            "value": ""
-        },
-        "HEROKU_API_KEY": {
-            "description": "Kunci API akun Heroku Anda",
-            "value": "",
-            "required": false
-        },
-        "HEROKU_APP_NAME": {
-           "description": "Nama app heroku Anda/samain kayak appname",
-           "value": "",
-           "required": false
-        },
-        "GROUP": {
-            "description": "Isi dengan username group tanpa @",
-            "required": true,
-            "value": "NastySupportt"
-        },
-         "CHANNEL": {
-            "description": "Isi dengan username channel tanpa @",
-            "required": true,
-            "value": "NastyProject"
-        },
-        "SUDO_USERS": {
-            "description": "isi dengan user id yang dapat mengakses semua fungsi di bot anda (dipisahkan dengan spasi).",
-            "required": true,
-            "value": "1663258664"
-        },
-        "DURATION_LIMIT": {
-            "description": "diisi, jangan ubah ini!!",
-            "required": true,
-            "value": "3600"
-        },
-        "BOT_TOKEN": {
-            "description": "isi dengan token bot Anda dapatkan dari @BotFather di telegram",
-            "required": true,
-            "value": ""
-        },
-        "UPSTREAM_REPO": {
-            "description": "Jika Anda tidak tahu ini, Biarkan apa adanya ato di /skip",
-            "value": "https://github.com/muhammadrizky16/KyyMusic",
-            "required": true
-        },
-        "UPSTREAM_BRANCH": {
-            "description": "Nama Cabang Repo kalo tidak tau di /skip",
-            "value": "master",
-            "required": true
-        },
-        "MONGO_DB_URI": {
-            "description": "isi dengan url mongodb dapatkan dari mongodb.cloud.com (jangan gunakan milik saya di bawah!)",
-            "required": true,
-            "value": ""
-        }
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "If you want your assistant to leave all chats automatically after some time.",
+        "value": "True",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "value": "",
+        "required": false
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app/bot's name",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+        "value": "",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "If you dont know this, Leave as it is",
+        "value": "https://github.com/TeamYukki/YukkiMusicBot",
+        "required": true
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Upstream Repo's Branch Name",
+        "value": "master",
+        "required": true
+      }
     },
-    "buildpacks": [{
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }, {
-      "url": "heroku/python"
-    }],
-    "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      },
+      "stack": "container"
   }
-}
