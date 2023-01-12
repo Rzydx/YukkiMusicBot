@@ -45,7 +45,7 @@ admin_5 : "Musiknya dmatiin ya jink!."
 admin_6 : "🎧 Os di bisuin sama {}!"
 admin_7 : "Musik udah di suarain lagi"
 admin_8 : "🎧 Os di suarain sama si {}!"
-admin_9 : "🎧 Musik / OS dimatiin sama si kontol ini  {}!"
+admin_9 : "🎧 Musiknya dimatiin sama si kontol ini  {}!"
 admin_10 : "🎧 Musik di skip sama {}!. Udah abis ga ada antrian musik lagi ya jink."
 admin_11 : "Mampus eror **{0}**\n\nCoba ketik /skip lagi mek!."
 admin_12 : "Lo ga bisa skip karna lu ngaktifin Loop tolol. Matiin mode loopnya kentot, caranya ketik `/loop disable` noh mek!."
@@ -143,7 +143,7 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Lagi diproses Request an lu mek... Tunggu bentar anjing! gratis gasabaran, Ga donasi gausah make"
+play_1 : "🔄 Lagi digenjot ... Tunggu bentar lagi crot"
 play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Mampus gagal jink!"
 play_4 : "🖇 **Admin Only Play**\nCuma admin yang bisa play.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
@@ -151,7 +151,7 @@ play_5 : "Gagal memproses file audio mek.\n\nUkuran File Audio Harus Kurang dari
 play_6 : "**Batas Durasi nya kegedean memek!**\n\n**Durasi yang boleh ya jink : *{0} menit\n**Durasi yang di req:** {1} jam, mikir anjg dyno cepet abis!"
 play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas karena masalah kelebihan CPU. Banyak obrolan lain menggunakan panggilan video sekarang. Coba beralih ke audio atau coba lagi nanti"
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
-play_9 : "Ukuran File video kegedean tolol, max 1 GiB"
+play_9 : "Ukuran File video kegedean tolol, max 1 GB"
 play_10 : "**Fitur Daftar Putar YouTube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
 play_11 : "📎Judul: **{0}\n\n⏳Durasi:** {1} Menit"
 play_12 : "**Mode Putar Spotify**\n\nDiReq Oleh:- {0}"
@@ -239,7 +239,7 @@ stream_4 : "☠️ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**
 
 #General Buttons
 CLOSE_BUTTON : "🗑 Tutup"
-CLOSEMENU_BUTTON : "🗑 Tutup Menu"
+CLOSEMENU_BUTTON : "•ᴛᴜᴛᴜᴘ•"
 BACK_BUTTON : "⬅ Balik"
 UNBAN_BUTTON : "🗑 Unban Asisten"
 
@@ -277,8 +277,8 @@ P_B_4 : "💿 Putar Playlist"
 
 #Playlist
 PL_B_1 : "🚀 Putar Playlist"
-PL_B_2 : "✚ Daftar Putar"
-PL_B_3 : "✚ Tambahan"
+PL_B_2 : "•ᴄʜᴀɴɴᴇʟ•"
+PL_B_3 : "•ᴍᴇɴᴜ•"
 PL_B_4 : "📡 Mode Putar"
 PL_B_5 : "🔄 Hapus Semua Daftar Putar"
 PL_B_6 : "↗️ Hapus Daftar Putar"
