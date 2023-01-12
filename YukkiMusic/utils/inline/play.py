@@ -36,7 +36,7 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"], url=f"https://t.me/QwertYou_LoveMe"),
+                text=_["PL_B_2"], url=f"https://t.me/getenv"),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
