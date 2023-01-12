@@ -11,9 +11,9 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
+PING_COMMAND : ["mping"]
+START_COMMAND : ["mstart"]
+HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
@@ -55,7 +55,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
+ADDSUDO_COMMAND : ["maddsudo"]
 DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
@@ -103,8 +103,8 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
-ACTIVEVIDEO_COMMAND : ["activevideo"]
+ACTIVEVC_COMMAND : ["vcs"]
+ACTIVEVIDEO_COMMAND : ["vcv"]
 
 #Gban Commands
 GBAN_COMMAND : ["gban"]
