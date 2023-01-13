@@ -19,7 +19,7 @@ call_2 : "Bot nya diblokir tolol! Coba lu cek asisstantnya diblok digroup ini to
 call_3 : "Kesalahan ya gblk! Coba lagi, atau engga tanya @JustRex Ni gua kasih alesannya.\n\n**Alasan**: {0}"
 call_4 : "Kasih Botnya Admin biar bisa ngundang asisstantnya tolol**Undang Pengguna Melalui Tautan** Izinin Botnya buat ngundang Asisstantnya tolol, Kalo ga gitu ya ga bisa diplay mmk!"
 call_5 : "Asisstant bakal gabung ke group ini, Tungguin dulu tolol!"
-call_6 : "Asisstant [{0}] Udah Berhasil Bergabung Tuh mek!.\n\nUdah bisa Musikan Sekarang, Makasih ke @JustRex tolol!"
+call_6 : "Asisstant [{0}] Udah Berhasil Bergabung Tuh mek!.\n\nUdah bisa Musikan Sekarang,Bilang makasih ke @pyyaml, tolol!"
 call_7 : "**Lu ngasih gua hak buat ban loh **\n\nMau apus **BAN PENGGUNA** dari bot ga?Ga ngaruh juga sih mek!."
 call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **TAMBAHKAN ADMIN BARU** dari bot."
 call_9 : "**Gagal ganti lagu mek!**\nKetik /skip untuk Ganti Musik!."
@@ -206,7 +206,7 @@ lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian 
 
 #Ping
 ping_1 : "Duarrr memek!!!!"
-ping_2 : "{0} Gua berfungsi anjg!! `{1}` md.\n\nWaktu aktif bot adalah {2} dan udah gunain total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Klien Py-Tgcalls juga memiliki ping `{6}` ms yang bagus."
+ping_2 : "{0} berfungsi anjg!! `{1}` md.\n\nWaktu aktif bot adalah {2} dan udah gunain total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Klien Py-Tgcalls juga memiliki ping `{6}` ms yang bagus."
 
 
 # Song
