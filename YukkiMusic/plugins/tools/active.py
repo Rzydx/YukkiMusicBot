@@ -78,9 +78,8 @@ async def activevi_(_, message: Message):
 
 
 @app.on_message(filters.command("active", [".", "^", "-", "!", "/"]) & SUDOERS)
-async def activevi_(_, message: 
-Message):
-    ms = len(await get_active_chats())
-    vd = len(await get_active_video_chats())
-    await app.send_message(message.chat.id, 
-        f"💽 Active Chats:\n\n• Music: {ms}\n•Video:{vd}")
+async def activecilik(_, message: Message):
+    ms = len(await get_active_chats())
+    vd = len(await get_active_video_chats())
+    await app.send_message(message.chat.id, 
+        f"💽 Active Chats:\n\n• Music: {ms}\n•Video:{vd}")
