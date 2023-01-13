@@ -77,7 +77,7 @@ async def activevi_(_, message: Message):
         )
 
 
-@app.on_message(filters.command("active", [".", "^", "-", "!", "/"]) & SUDOERS)
+@app.on_message(filters.command("aht", [".", "^", "-", "!", "/"]) & SUDOERS)
 async def activecilik(_, message: Message):
     ms = len(await get_active_chats())
     vd = len(await get_active_video_chats())
