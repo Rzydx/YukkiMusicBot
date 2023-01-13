@@ -76,7 +76,7 @@ async def activevi_(_, message: Message):
             disable_web_page_preview=True,
         )
 @app.on_message(filters.command("aht", [".", "^", "-", "!", "/"]) & SUDOERS)
-async def activecilik(_, message: Message):
+async def activevi_(_, message: Message):
     ms = len(await get_active_chats())
     vd = len(await get_active_video_chats())
     await app.send_message(message.chat.id, 
